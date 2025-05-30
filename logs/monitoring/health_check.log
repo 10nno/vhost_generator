@@ -1,0 +1,50 @@
+[2025-05-31 00:57:25] [ERROR] [HTTP] arsgo.pro: HTTP error 000
+[2025-05-31 00:57:26] [ERROR] [HTTPS] arsgo.pro: HTTPS error 000
+[2025-05-31 00:57:26] [ERROR] [HEALTH] arsgo.pro: Has errors
+[2025-05-31 00:57:26] [ERROR] [HTTP] arsku.vip: HTTP error 000
+[2025-05-31 00:57:26] [ERROR] [HTTPS] arsku.vip: HTTPS error 000
+[2025-05-31 00:57:26] [ERROR] [HEALTH] arsku.vip: Has errors
+[2025-05-31 00:57:26] [ERROR] [HTTP] caspo777mainin.net: HTTP error 000
+[2025-05-31 00:57:26] [ERROR] [HTTPS] caspo777mainin.net: HTTPS error 000
+[2025-05-31 00:57:26] [ERROR] [HEALTH] caspo777mainin.net: Has errors
+[2025-05-31 00:57:26] [ERROR] [HTTP] caspo777pasti.com: HTTP error 000
+[2025-05-31 00:57:26] [ERROR] [HTTPS] caspo777pasti.com: HTTPS error 000
+[2025-05-31 00:57:27] [ERROR] [HEALTH] caspo777pasti.com: Has errors
+[2025-05-31 00:57:27] [ERROR] [HTTP] cintascore.fun: HTTP error 000
+[2025-05-31 00:57:27] [ERROR] [HTTPS] cintascore.fun: HTTPS error 000
+[2025-05-31 00:57:27] [ERROR] [HEALTH] cintascore.fun: Has errors
+[2025-05-31 00:57:27] [ERROR] [HTTP] gaskeunbetday.com: HTTP error 000
+[2025-05-31 00:57:27] [ERROR] [HTTPS] gaskeunbetday.com: HTTPS error 000
+[2025-05-31 00:57:27] [ERROR] [HEALTH] gaskeunbetday.com: Has errors
+[2025-05-31 00:57:27] [ERROR] [HTTP] gaskeunking.us: HTTP error 000
+[2025-05-31 00:57:27] [ERROR] [HTTPS] gaskeunking.us: HTTPS error 000
+[2025-05-31 00:57:27] [ERROR] [HEALTH] gaskeunking.us: Has errors
+[2025-05-31 00:57:27] [ERROR] [HTTP] ilucky88wins.me: HTTP error 000
+[2025-05-31 00:57:27] [ERROR] [HTTPS] ilucky88wins.me: HTTPS error 000
+[2025-05-31 00:57:27] [ERROR] [HEALTH] ilucky88wins.me: Has errors
+[2025-05-31 00:57:27] [ERROR] [HTTP] iluckycsn88.xyz: HTTP error 000
+[2025-05-31 00:57:28] [ERROR] [HTTPS] iluckycsn88.xyz: HTTPS error 000
+[2025-05-31 00:57:28] [ERROR] [HEALTH] iluckycsn88.xyz: Has errors
+[2025-05-31 00:57:28] [ERROR] [HTTP] mildcasino77.net: HTTP error 000
+[2025-05-31 00:57:28] [ERROR] [HTTPS] mildcasino77.net: HTTPS error 000
+[2025-05-31 00:57:28] [ERROR] [HEALTH] mildcasino77.net: Has errors
+[2025-05-31 00:57:28] [ERROR] [HTTP] mildcsn1win.com: HTTP error 000
+[2025-05-31 00:57:29] [ERROR] [HTTPS] mildcsn1win.com: HTTPS error 000
+[2025-05-31 00:57:29] [ERROR] [HEALTH] mildcsn1win.com: Has errors
+[2025-05-31 00:57:29] [ERROR] [HTTP] playslot88ku.in: HTTP error 000
+[2025-05-31 00:57:29] [ERROR] [HTTPS] playslot88ku.in: HTTPS error 000
+[2025-05-31 00:57:29] [ERROR] [HEALTH] playslot88ku.in: Has errors
+[2025-05-31 00:57:29] [ERROR] [HTTP] playslot88pro.in: HTTP error 000
+[2025-05-31 00:57:29] [ERROR] [HTTPS] playslot88pro.in: HTTPS error 000
+[2025-05-31 00:57:29] [ERROR] [HEALTH] playslot88pro.in: Has errors
+[2025-05-31 00:57:29] [ERROR] [HTTP] radarscore.pro: HTTP error 000
+[2025-05-31 00:57:29] [ERROR] [HTTPS] radarscore.pro: HTTPS error 000
+[2025-05-31 00:57:29] [ERROR] [HEALTH] radarscore.pro: Has errors
+[2025-05-31 00:57:29] [INFO] [SUMMARY] Health check completed: 14 total, 0 healthy, 0 warnings, 14 errors, 0 critical
+[2025-05-31 00:58:45] [INFO] [SSL] SSL check completed: 44 total, 0 expired, 0 critical, 0 warning
+[2025-05-31 00:59:31] [ERROR] [UPTIME] arsgo.pro: DOWN - HTTP 000
+[2025-05-31 01:37:02] [INFO] [HEALTH] playslot88pro.in: Healthy (tested: 927.playslot88pro.in)
+[2025-05-31 01:40:53] [ERROR] [VHOST] monitoring-menu: VHost file missing - checked /etc/nginx/vhost_generator/vhost/fresh/monitoring-menu_fresh_vhost
+[2025-05-31 01:40:53] [ERROR] [HTTP] monitoring-menu: HTTP error 000 on 134.monitoring-menu
+[2025-05-31 01:40:53] [CRITICAL] [HEALTH] monitoring-menu: Critical issues (tested: 134.monitoring-menu)
+[2025-05-31 01:41:48] [INFO] [HEALTH] arsku.vip: Healthy (tested: 23123.arsku.vip)

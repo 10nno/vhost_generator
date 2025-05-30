@@ -1,0 +1,90 @@
+[2025-05-30 22:44:42] [SUCCESS] certbotcf command found
+[2025-05-30 22:44:42] [SUCCESS] Cloudflare credentials file found
+[2025-05-30 22:44:42] [SUCCESS] Let's Encrypt directory found
+[2025-05-30 22:44:48] [INFO] Starting bulk SSL certificate generation...
+[2025-05-30 22:44:48] [INFO] Processing brand: AREASLOTS
+[2025-05-30 22:44:48] [INFO] Processing domain: arsku.vip
+[2025-05-30 22:44:48] [INFO] Starting SSL certificate generation for: arsku.vip
+[2025-05-30 22:44:48] [WARNING] Certificate already exists for arsku.vip
+[2025-05-30 22:44:48] [INFO] Certificate expires in 89 days - no renewal needed
+[2025-05-30 22:44:48] [INFO] Processing domain: arsgo.pro
+[2025-05-30 22:44:48] [INFO] Starting SSL certificate generation for: arsgo.pro
+[2025-05-30 22:44:48] [INFO] Generating certificate for: arsgo.pro and *.arsgo.pro
+[2025-05-30 22:45:18] [SUCCESS] SSL certificate generated successfully for arsgo.pro
+[2025-05-30 22:45:18] [SUCCESS] Certificate files verified
+[2025-05-30 22:45:19] [INFO] Certificate expires: Aug 28 14:46:42 2025 GMT
+[2025-05-30 22:45:19] [INFO] Processing brand: CASPO777
+[2025-05-30 22:45:19] [INFO] Processing domain: caspo777mainin.net
+[2025-05-30 22:45:19] [INFO] Starting SSL certificate generation for: caspo777mainin.net
+[2025-05-30 22:45:19] [WARNING] Certificate already exists for caspo777mainin.net
+[2025-05-30 22:45:19] [INFO] Certificate expires in 89 days - no renewal needed
+[2025-05-30 22:45:19] [INFO] Processing domain: caspo777pasti.com
+[2025-05-30 22:45:19] [INFO] Starting SSL certificate generation for: caspo777pasti.com
+[2025-05-30 22:45:19] [INFO] Generating certificate for: caspo777pasti.com and *.caspo777pasti.com
+[2025-05-30 22:45:46] [SUCCESS] SSL certificate generated successfully for caspo777pasti.com
+[2025-05-30 22:45:46] [SUCCESS] Certificate files verified
+[2025-05-30 22:45:46] [INFO] Certificate expires: Aug 28 14:47:13 2025 GMT
+[2025-05-30 22:45:46] [INFO] Processing brand: DEWASCORE
+[2025-05-30 22:45:46] [INFO] Processing domain: radarscore.pro
+[2025-05-30 22:45:46] [INFO] Starting SSL certificate generation for: radarscore.pro
+[2025-05-30 22:45:46] [INFO] Generating certificate for: radarscore.pro and *.radarscore.pro
+[2025-05-30 22:46:15] [SUCCESS] SSL certificate generated successfully for radarscore.pro
+[2025-05-30 22:46:15] [SUCCESS] Certificate files verified
+[2025-05-30 22:46:15] [INFO] Certificate expires: Aug 28 14:47:40 2025 GMT
+[2025-05-30 22:46:15] [INFO] Processing domain: cintascore.fun
+[2025-05-30 22:46:15] [INFO] Starting SSL certificate generation for: cintascore.fun
+[2025-05-30 22:46:15] [INFO] Generating certificate for: cintascore.fun and *.cintascore.fun
+[2025-05-30 22:46:42] [SUCCESS] SSL certificate generated successfully for cintascore.fun
+[2025-05-30 22:46:42] [SUCCESS] Certificate files verified
+[2025-05-30 22:46:42] [INFO] Certificate expires: Aug 28 14:48:09 2025 GMT
+[2025-05-30 22:46:42] [INFO] Processing brand: GASKEUNBET
+[2025-05-30 22:46:42] [INFO] Processing domain: gaskeunking.us
+[2025-05-30 22:46:42] [INFO] Starting SSL certificate generation for: gaskeunking.us
+[2025-05-30 22:46:42] [INFO] Generating certificate for: gaskeunking.us and *.gaskeunking.us
+[2025-05-30 22:47:09] [SUCCESS] SSL certificate generated successfully for gaskeunking.us
+[2025-05-30 22:47:09] [SUCCESS] Certificate files verified
+[2025-05-30 22:47:09] [INFO] Certificate expires: Aug 28 14:48:36 2025 GMT
+[2025-05-30 22:47:09] [INFO] Processing domain: gaskeunbetday.com
+[2025-05-30 22:47:09] [INFO] Starting SSL certificate generation for: gaskeunbetday.com
+[2025-05-30 22:47:09] [INFO] Generating certificate for: gaskeunbetday.com and *.gaskeunbetday.com
+[2025-05-30 22:47:39] [SUCCESS] SSL certificate generated successfully for gaskeunbetday.com
+[2025-05-30 22:47:39] [SUCCESS] Certificate files verified
+[2025-05-30 22:47:39] [INFO] Certificate expires: Aug 28 14:49:03 2025 GMT
+[2025-05-30 22:47:39] [INFO] Processing brand: ILUCKY88
+[2025-05-30 22:47:39] [INFO] Processing domain: ilucky88wins.me
+[2025-05-30 22:47:39] [INFO] Starting SSL certificate generation for: ilucky88wins.me
+[2025-05-30 22:47:39] [INFO] Generating certificate for: ilucky88wins.me and *.ilucky88wins.me
+[2025-05-30 22:48:08] [SUCCESS] SSL certificate generated successfully for ilucky88wins.me
+[2025-05-30 22:48:08] [SUCCESS] Certificate files verified
+[2025-05-30 22:48:08] [INFO] Certificate expires: Aug 28 14:49:32 2025 GMT
+[2025-05-30 22:48:08] [INFO] Processing domain: iluckycsn88.xyz
+[2025-05-30 22:48:08] [INFO] Starting SSL certificate generation for: iluckycsn88.xyz
+[2025-05-30 22:48:08] [INFO] Generating certificate for: iluckycsn88.xyz and *.iluckycsn88.xyz
+[2025-05-30 22:48:39] [SUCCESS] SSL certificate generated successfully for iluckycsn88.xyz
+[2025-05-30 22:48:39] [SUCCESS] Certificate files verified
+[2025-05-30 22:48:39] [INFO] Certificate expires: Aug 28 14:50:01 2025 GMT
+[2025-05-30 22:48:39] [INFO] Processing brand: MILDCASINO
+[2025-05-30 22:48:39] [INFO] Processing domain: mildcasino77.net
+[2025-05-30 22:48:39] [INFO] Starting SSL certificate generation for: mildcasino77.net
+[2025-05-30 22:48:39] [WARNING] Certificate already exists for mildcasino77.net
+[2025-05-30 22:48:39] [INFO] Certificate expires in 89 days - no renewal needed
+[2025-05-30 22:48:39] [INFO] Processing domain: mildcsn1win.com
+[2025-05-30 22:48:39] [INFO] Starting SSL certificate generation for: mildcsn1win.com
+[2025-05-30 22:48:39] [INFO] Generating certificate for: mildcsn1win.com and *.mildcsn1win.com
+[2025-05-30 22:49:05] [SUCCESS] SSL certificate generated successfully for mildcsn1win.com
+[2025-05-30 22:49:05] [SUCCESS] Certificate files verified
+[2025-05-30 22:49:05] [INFO] Certificate expires: Aug 28 14:50:32 2025 GMT
+[2025-05-30 22:49:05] [INFO] Processing brand: PLAYSLOTS88
+[2025-05-30 22:49:05] [INFO] Processing domain: playslot88ku.in
+[2025-05-30 22:49:05] [INFO] Starting SSL certificate generation for: playslot88ku.in
+[2025-05-30 22:49:05] [INFO] Generating certificate for: playslot88ku.in and *.playslot88ku.in
+[2025-05-30 22:49:33] [SUCCESS] SSL certificate generated successfully for playslot88ku.in
+[2025-05-30 22:49:33] [SUCCESS] Certificate files verified
+[2025-05-30 22:49:33] [INFO] Certificate expires: Aug 28 14:50:59 2025 GMT
+[2025-05-30 22:49:33] [INFO] Processing domain: playslot88pro.in
+[2025-05-30 22:49:33] [INFO] Starting SSL certificate generation for: playslot88pro.in
+[2025-05-30 22:49:33] [INFO] Generating certificate for: playslot88pro.in and *.playslot88pro.in
+[2025-05-30 22:50:00] [SUCCESS] SSL certificate generated successfully for playslot88pro.in
+[2025-05-30 22:50:00] [SUCCESS] Certificate files verified
+[2025-05-30 22:50:00] [INFO] Certificate expires: Aug 28 14:51:27 2025 GMT
+[2025-05-30 22:50:00] [SUCCESS] Successfully generated: 14 certificates
