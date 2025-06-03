@@ -88,3 +88,133 @@
 [2025-05-30 22:50:00] [SUCCESS] Certificate files verified
 [2025-05-30 22:50:00] [INFO] Certificate expires: Aug 28 14:51:27 2025 GMT
 [2025-05-30 22:50:00] [SUCCESS] Successfully generated: 14 certificates
+[2025-06-03 14:20:36] [SUCCESS] certbotcf command found
+[2025-06-03 14:20:36] [SUCCESS] Cloudflare credentials file found
+[2025-06-03 14:20:36] [SUCCESS] Let's Encrypt directory found
+[2025-06-03 14:20:42] [INFO] Starting bulk SSL certificate generation...
+[2025-06-03 14:20:42] [INFO] Processing brand: AREASLOTS
+[2025-06-03 14:20:42] [INFO] Processing domain: arsku.vip
+[2025-06-03 14:20:42] [INFO] Starting SSL certificate generation for: arsku.vip
+[2025-06-03 14:20:42] [WARNING] Certificate already exists for arsku.vip
+[2025-06-03 14:20:42] [INFO] Certificate expires in 86 days - no renewal needed
+[2025-06-03 14:20:42] [INFO] Processing domain: arsgo.pro
+[2025-06-03 14:20:42] [INFO] Starting SSL certificate generation for: arsgo.pro
+[2025-06-03 14:20:42] [WARNING] Certificate already exists for arsgo.pro
+[2025-06-03 14:20:42] [INFO] Certificate expires in 86 days - no renewal needed
+[2025-06-03 14:20:42] [INFO] Processing brand: ARUNABET
+[2025-06-03 14:20:42] [INFO] Processing domain: arunabet694.club
+[2025-06-03 14:20:42] [INFO] Starting SSL certificate generation for: arunabet694.club
+[2025-06-03 14:20:42] [INFO] Generating certificate for: arunabet694.club and *.arunabet694.club
+[2025-06-03 14:20:51] [ERROR] SSL certificate generation failed for arunabet694.club
+[2025-06-03 14:20:51] [INFO] Check the logs above for details
+[2025-06-03 14:20:51] [INFO] Processing domain: arunabetgo.com
+[2025-06-03 14:20:51] [INFO] Starting SSL certificate generation for: arunabetgo.com
+[2025-06-03 14:20:51] [INFO] Generating certificate for: arunabetgo.com and *.arunabetgo.com
+[2025-06-03 14:21:00] [ERROR] SSL certificate generation failed for arunabetgo.com
+[2025-06-03 14:21:00] [INFO] Check the logs above for details
+[2025-06-03 14:21:00] [INFO] Processing brand: CASPO777
+[2025-06-03 14:21:00] [INFO] Processing domain: caspo777mainin.net
+[2025-06-03 14:21:00] [INFO] Starting SSL certificate generation for: caspo777mainin.net
+[2025-06-03 14:21:00] [WARNING] Certificate already exists for caspo777mainin.net
+[2025-06-03 14:21:00] [INFO] Certificate expires in 86 days - no renewal needed
+[2025-06-03 14:21:00] [INFO] Processing domain: caspo777pasti.com
+[2025-06-03 14:21:00] [INFO] Starting SSL certificate generation for: caspo777pasti.com
+[2025-06-03 14:21:00] [WARNING] Certificate already exists for caspo777pasti.com
+[2025-06-03 14:21:00] [INFO] Certificate expires in 86 days - no renewal needed
+[2025-06-03 14:21:00] [INFO] Processing brand: DEWASCORE
+[2025-06-03 14:21:00] [INFO] Processing domain: radarscore.pro
+[2025-06-03 14:21:00] [INFO] Starting SSL certificate generation for: radarscore.pro
+[2025-06-03 14:21:00] [WARNING] Certificate already exists for radarscore.pro
+[2025-06-03 14:21:00] [INFO] Certificate expires in 86 days - no renewal needed
+[2025-06-03 14:21:00] [INFO] Processing domain: cintascore.fun
+[2025-06-03 14:21:00] [INFO] Starting SSL certificate generation for: cintascore.fun
+[2025-06-03 14:21:00] [WARNING] Certificate already exists for cintascore.fun
+[2025-06-03 14:21:00] [INFO] Certificate expires in 86 days - no renewal needed
+[2025-06-03 14:21:00] [INFO] Processing brand: DEWATERBANG
+[2025-06-03 14:21:00] [INFO] Processing domain: dewatrbngjoy.com|dewatrbng1bos.cc|dewaterbang1m.org
+[2025-06-03 14:21:00] [INFO] Starting SSL certificate generation for: dewatrbngjoy.com|dewatrbng1bos.cc|dewaterbang1m.org
+[2025-06-03 14:21:00] [INFO] Generating certificate for: dewatrbngjoy.com|dewatrbng1bos.cc|dewaterbang1m.org and *.dewatrbngjoy.com|dewatrbng1bos.cc|dewaterbang1m.org
+[2025-06-03 14:21:02] [ERROR] SSL certificate generation failed for dewatrbngjoy.com|dewatrbng1bos.cc|dewaterbang1m.org
+[2025-06-03 14:21:02] [INFO] Check the logs above for details
+[2025-06-03 14:21:02] [INFO] Processing brand: GASKEUNBET
+[2025-06-03 14:21:02] [INFO] Processing domain: gaskeunking.us
+[2025-06-03 14:21:02] [INFO] Starting SSL certificate generation for: gaskeunking.us
+[2025-06-03 14:21:02] [WARNING] Certificate already exists for gaskeunking.us
+[2025-06-03 14:21:02] [INFO] Certificate expires in 86 days - no renewal needed
+[2025-06-03 14:21:02] [INFO] Processing domain: gaskeunbetday.com
+[2025-06-03 14:21:02] [INFO] Starting SSL certificate generation for: gaskeunbetday.com
+[2025-06-03 14:21:02] [WARNING] Certificate already exists for gaskeunbetday.com
+[2025-06-03 14:21:02] [INFO] Certificate expires in 86 days - no renewal needed
+[2025-06-03 14:21:02] [INFO] Processing brand: ILUCKY88
+[2025-06-03 14:21:02] [INFO] Processing domain: ilucky88wins.me
+[2025-06-03 14:21:02] [INFO] Starting SSL certificate generation for: ilucky88wins.me
+[2025-06-03 14:21:02] [WARNING] Certificate already exists for ilucky88wins.me
+[2025-06-03 14:21:02] [INFO] Certificate expires in 86 days - no renewal needed
+[2025-06-03 14:21:02] [INFO] Processing domain: iluckycsn88.xyz
+[2025-06-03 14:21:02] [INFO] Starting SSL certificate generation for: iluckycsn88.xyz
+[2025-06-03 14:21:02] [WARNING] Certificate already exists for iluckycsn88.xyz
+[2025-06-03 14:21:02] [INFO] Certificate expires in 86 days - no renewal needed
+[2025-06-03 14:21:02] [INFO] Processing brand: KINGJR99
+[2025-06-03 14:21:02] [INFO] Processing domain: kjrwin.vip
+[2025-06-03 14:21:02] [INFO] Starting SSL certificate generation for: kjrwin.vip
+[2025-06-03 14:21:02] [INFO] Generating certificate for: kjrwin.vip and *.kjrwin.vip
+[2025-06-03 14:21:10] [ERROR] SSL certificate generation failed for kjrwin.vip
+[2025-06-03 14:21:10] [INFO] Check the logs above for details
+[2025-06-03 14:21:10] [INFO] Processing domain: kjrpro.pro
+[2025-06-03 14:21:10] [INFO] Starting SSL certificate generation for: kjrpro.pro
+[2025-06-03 14:21:10] [INFO] Generating certificate for: kjrpro.pro and *.kjrpro.pro
+[2025-06-03 14:21:16] [ERROR] SSL certificate generation failed for kjrpro.pro
+[2025-06-03 14:21:16] [INFO] Check the logs above for details
+[2025-06-03 14:21:16] [INFO] Processing brand: MESINGG
+[2025-06-03 14:21:16] [INFO] Processing domain: mesinggbet.net
+[2025-06-03 14:21:16] [INFO] Starting SSL certificate generation for: mesinggbet.net
+[2025-06-03 14:21:16] [INFO] Generating certificate for: mesinggbet.net and *.mesinggbet.net
+[2025-06-03 14:21:17] [ERROR] SSL certificate generation failed for mesinggbet.net
+[2025-06-03 14:21:17] [INFO] Check the logs above for details
+[2025-06-03 14:21:17] [INFO] Processing domain: dimesingg.net
+[2025-06-03 14:21:17] [INFO] Starting SSL certificate generation for: dimesingg.net
+[2025-06-03 14:21:17] [INFO] Generating certificate for: dimesingg.net and *.dimesingg.net
+[2025-06-03 14:21:19] [ERROR] SSL certificate generation failed for dimesingg.net
+[2025-06-03 14:21:19] [INFO] Check the logs above for details
+[2025-06-03 14:21:19] [INFO] Processing brand: MILDCASINO
+[2025-06-03 14:21:19] [INFO] Processing domain: mildcasino77.net
+[2025-06-03 14:21:19] [INFO] Starting SSL certificate generation for: mildcasino77.net
+[2025-06-03 14:21:19] [WARNING] Certificate already exists for mildcasino77.net
+[2025-06-03 14:21:19] [INFO] Certificate expires in 86 days - no renewal needed
+[2025-06-03 14:21:19] [INFO] Processing domain: mildcsn1win.com
+[2025-06-03 14:21:19] [INFO] Starting SSL certificate generation for: mildcsn1win.com
+[2025-06-03 14:21:19] [WARNING] Certificate already exists for mildcsn1win.com
+[2025-06-03 14:21:19] [INFO] Certificate expires in 86 days - no renewal needed
+[2025-06-03 14:21:19] [INFO] Processing brand: PLAYSLOTS88
+[2025-06-03 14:21:19] [INFO] Processing domain: playslot88ku.in
+[2025-06-03 14:21:19] [INFO] Starting SSL certificate generation for: playslot88ku.in
+[2025-06-03 14:21:19] [WARNING] Certificate already exists for playslot88ku.in
+[2025-06-03 14:21:19] [INFO] Certificate expires in 86 days - no renewal needed
+[2025-06-03 14:21:19] [INFO] Processing domain: playslot88pro.in
+[2025-06-03 14:21:19] [INFO] Starting SSL certificate generation for: playslot88pro.in
+[2025-06-03 14:21:19] [WARNING] Certificate already exists for playslot88pro.in
+[2025-06-03 14:21:19] [INFO] Certificate expires in 86 days - no renewal needed
+[2025-06-03 14:21:19] [INFO] Processing brand: ROYALACESS88
+[2025-06-03 14:21:19] [INFO] Processing domain: royalaces.net
+[2025-06-03 14:21:19] [INFO] Starting SSL certificate generation for: royalaces.net
+[2025-06-03 14:21:19] [INFO] Generating certificate for: royalaces.net and *.royalaces.net
+[2025-06-03 14:21:26] [ERROR] SSL certificate generation failed for royalaces.net
+[2025-06-03 14:21:26] [INFO] Check the logs above for details
+[2025-06-03 14:21:26] [INFO] Processing domain: royalacespro.net
+[2025-06-03 14:21:26] [INFO] Starting SSL certificate generation for: royalacespro.net
+[2025-06-03 14:21:26] [INFO] Generating certificate for: royalacespro.net and *.royalacespro.net
+[2025-06-03 14:21:34] [ERROR] SSL certificate generation failed for royalacespro.net
+[2025-06-03 14:21:34] [INFO] Check the logs above for details
+[2025-06-03 14:21:34] [INFO] Processing brand: UNOGG
+[2025-06-03 14:21:34] [INFO] Processing domain: unoggjoy.us
+[2025-06-03 14:21:34] [INFO] Starting SSL certificate generation for: unoggjoy.us
+[2025-06-03 14:21:34] [INFO] Generating certificate for: unoggjoy.us and *.unoggjoy.us
+[2025-06-03 14:21:43] [ERROR] SSL certificate generation failed for unoggjoy.us
+[2025-06-03 14:21:43] [INFO] Check the logs above for details
+[2025-06-03 14:21:43] [INFO] Processing domain: unoggasli.blog
+[2025-06-03 14:21:43] [INFO] Starting SSL certificate generation for: unoggasli.blog
+[2025-06-03 14:21:43] [INFO] Generating certificate for: unoggasli.blog and *.unoggasli.blog
+[2025-06-03 14:21:51] [ERROR] SSL certificate generation failed for unoggasli.blog
+[2025-06-03 14:21:51] [INFO] Check the logs above for details
+[2025-06-03 14:21:51] [SUCCESS] Successfully generated: 14 certificates
+[2025-06-03 14:21:51] [ERROR] Failed to generate: 11 certificates

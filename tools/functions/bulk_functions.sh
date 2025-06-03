@@ -4,6 +4,51 @@
 # File: bulk_functions.sh
 # Contains bulk operation functionality
 
+# Function to get main domain for a brand
+get_main_domain() {
+    local brand=$(echo "$1" | tr '[:lower:]' '[:upper:]')
+    local main_domains=$(get_brand_domains "$brand" "main")
+    if [[ $? -eq 0 && -n "$main_domains" ]]; then
+        IFS=',' read -ra domain_array <<< "$main_domains"
+        echo "${domain_array[0]}"
+    fi
+}
+
+# Function to create single vhost file (without SSL/symlink prompts)
+create_single_vhost_file() {
+    local brand=$1
+    local fresh_domain=$2
+    local main_domain=$3
+    local overwrite=${4:-"ask"}  # ask, yes, no
+    
+    # Create vhost file
+    local vhost_file="$VHOST_DIR/${fresh_domain}_fresh_vhost"
+    
+    # Check if file exists
+    if [[ -f "$vhost_file" ]]; then
+        if [[ "$overwrite" == "ask" ]]; then
+            read -p "File exists: $fresh_domain. Overwrite? (y/n): " confirm
+            [[ "$confirm" != "y" && "$confirm" != "Y" ]] && return 1
+        elif [[ "$overwrite" == "no" ]]; then
+            echo "⚠ Skipped (exists): $fresh_domain"
+            return 1
+        fi
+    fi
+    
+    # Generate vhost content
+    sed -e "s/{{FRESH_DOMAIN}}/$fresh_domain/g" \
+        -e "s/{{MAIN_DOMAIN}}/$main_domain/g" \
+        "$TEMPLATE_FILE" > "$vhost_file"
+    
+    if [[ $? -eq 0 ]]; then
+        echo "✓ Created: $fresh_domain"
+        return 0
+    else
+        echo "✗ Failed: $fresh_domain"
+        return 1
+    fi
+}
+
 # Function to bulk create fresh vhosts for all brands
 create_bulk_fresh_vhosts() {
     echo "Bulk Create Fresh VHosts"
@@ -269,7 +314,11 @@ create_bulk_brand_fresh_vhosts() {
                     echo "------------------------"
                     
                     if generate_ssl_certificate "$fresh_domain"; then
-                        create_nginx_symlink "$fresh_domain" "$vhost_file"
+                        if declare -f create_nginx_symlink >/dev/null; then
+                            create_nginx_symlink "$fresh_domain" "$vhost_file"
+                        elif declare -f symlink_fresh_vhost >/dev/null; then
+                            symlink_fresh_vhost "$fresh_domain" "no" "no"
+                        fi
                     fi
                 fi
             done
@@ -277,7 +326,16 @@ create_bulk_brand_fresh_vhosts() {
             echo ""
             read -p "Test and reload nginx? (y/n): " reload_confirm
             if [[ "$reload_confirm" == "y" || "$reload_confirm" == "Y" ]]; then
-                reload_nginx
+                if declare -f reload_nginx >/dev/null; then
+                    reload_nginx
+                else
+                    echo "Testing and reloading nginx..."
+                    if nginx -t && systemctl reload nginx; then
+                        echo "✓ Nginx reloaded successfully"
+                    else
+                        echo "✗ Failed to reload nginx"
+                    fi
+                fi
             fi
         fi
     fi
@@ -306,7 +364,19 @@ bulk_delete_fresh_vhosts() {
     fi
     
     # Show current vhosts
-    list_fresh_vhosts
+    if declare -f list_fresh_vhosts >/dev/null; then
+        list_fresh_vhosts
+    else
+        echo "Fresh VHost Files:"
+        echo "=================="
+        for vhost_file in "$VHOST_DIR"/*_fresh_vhost; do
+            if [[ -f "$vhost_file" ]]; then
+                local filename=$(basename "$vhost_file")
+                local domain="${filename%_fresh_vhost}"
+                echo "• $domain"
+            fi
+        done
+    fi
     
     echo ""
     echo "Found $vhost_count fresh vhost files"
@@ -444,7 +514,16 @@ bulk_delete_fresh_vhosts() {
         echo ""
         read -p "Test and reload nginx? (y/n): " reload_confirm
         if [[ "$reload_confirm" == "y" || "$reload_confirm" == "Y" ]]; then
-            reload_nginx
+            if declare -f reload_nginx >/dev/null; then
+                reload_nginx
+            else
+                echo "Testing and reloading nginx..."
+                if nginx -t && systemctl reload nginx; then
+                    echo "✓ Nginx reloaded successfully"
+                else
+                    echo "✗ Failed to reload nginx"
+                fi
+            fi
         fi
     fi
 }
